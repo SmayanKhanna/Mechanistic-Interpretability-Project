@@ -4,6 +4,8 @@
 
 Smayan Khanna, Ian Zhang
 
+Update: Awarded Top Class Project for UChicago CMSC 25700 (NLP) 🏆 
+
 # Abstract
 
 Large Language Models have become increasingly prevalent in the modern world, but little is actually understood about how individual layers and blocks interact with each other and contribute to the generated outputs. The goal of our project is to shine some light on this black box, and attempt to understand where lexical richness and complexity develop within a GPT-2 model. We also examine whether certain “vectors” may encode complexity: can we add a series of values to activations which output simple text and consequently increase output complexity (and vice versa)? Our experiments suggest that linguistic complexity is shaped by specific activation layers, though the effects vary significantly depending on the structure and content of the prompt. We also find that complexity tends to build up in the deeper layers of the model and behaves directionally, with the effects of adding or removing complexity depending on which way the patching is applied.
